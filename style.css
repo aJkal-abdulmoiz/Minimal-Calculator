@@ -1,0 +1,123 @@
+h1 {
+    margin: 30px;
+    padding-left: 20%;
+    padding-bottom: 5%;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2.2px 0 #232931;
+    font-size: 2rem;
+    color:aliceblue;
+  }
+body {
+    font-family: Arial, sans-serif;
+    background-color:#232931;
+  }
+  
+  .calculator {
+    width: 580px;
+    height: 50%;
+    margin: 0 auto;
+  }
+  
+  .display {
+    background-color:aliceblue;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border:#232931;
+    grid-gap: 10px;
+    padding: 6px;
+    padding-top:45px;
+  }
+
+  #title {
+    background-color:#232931;
+    color:whitesmoke;
+    
+}
+.navbar{
+    padding-left: 0.2rem ;
+    color: #232931;
+    background-color:#232931; 
+    padding-bottom: 5%;  
+
+}
+
+.navbar-brand {
+    font-family: 'Oxygen';
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3%;
+    color:white;
+    padding-left: 39%;
+    
+}
+
+.nav-item {
+    
+    margin-top: 5%;
+    padding-right:2% ;
+    font-size: 1.2;
+
+
+}
+
+.nav.link {
+    font-size: 1.2rem;
+    font-family: 'Anton-Light';
+    padding: 0 ;
+    color:white;
+
+}
+  
+button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:lightskyblue;
+  }
+  
+  button:active {
+    background-color:cornsilk;
+  }
+
+  footer {
+    margin-top: 2%;
+    color:ghostwhite;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  
+  }
+
+  .website{
+    color:whitesmoke;
+
+  }
+
+  .Note{
+    font-size: 1rem;
+    margin-top: 2%;
+    padding-left: 0.2rem;
+    color:snow;
+    font-family: 'Indie Flower', cursive;
+    padding-bottom: 0%;
+  
+  
+  }
+
+  #output{
+    padding-left: 10rem;
+    margin-right: 10%;
+    padding-right: 0rem ;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+  
+  }
